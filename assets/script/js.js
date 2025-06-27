@@ -11,3 +11,12 @@ window.addEventListener("scroll", () => {
     btn.classList.remove("scroll2");
   }
 });
+
+const g = document.querySelector("g[aria-label]");
+const contenutoAriaLabel = g.getAttribute("aria-label");
+
+console.log(contenutoAriaLabel);
+
+const getRandom = () => {
+  return Math.floor(Math.random() * array.length);
+};
