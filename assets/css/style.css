@@ -145,6 +145,7 @@
   #second-s aside {
     display: flex;
     flex-direction: column;
+    order: -1;
   }
   #second-s aside section {
     display: flex;
@@ -237,6 +238,12 @@
     top: 0;
     z-index: 3;
   }
+  .scroll {
+    background-color: white;
+  }
+  .scroll2 {
+    background-color: #1a8917;
+  }
 }
 @media screen and (min-width: 768px) {
   span {
@@ -276,7 +283,6 @@
     list-style-type: none;
     display: flex;
   }
-
   nav ul li {
     margin-right: 1em;
   }
@@ -294,10 +300,11 @@
     width: 100%;
     justify-content: space-between;
     padding-left: 5em;
+    padding-top: 6em;
     box-sizing: border-box;
   }
   #h-foot h1 {
-    font-size: 8em;
+    font-size: 6em;
     font-family: "Spectral", serif;
     font-weight: 500;
     margin-bottom: 0.5em;
@@ -337,7 +344,6 @@
     font-weight: 600;
     margin-left: 0.5em;
   }
-
   #first-s article {
     width: 30%;
     display: flex;
@@ -473,12 +479,21 @@
   .a-date-container p {
     margin: 0 0.3em;
   }
-
+  svg {
+    width: 100%;
+    height: 80%;
+  }
   nav {
     padding-top: 1em;
     background-color: #ffc017;
     position: fixed;
     top: 0;
-    z-index: 3;
+    z-index: 2;
+  }
+  .scroll {
+    background-color: white;
+  }
+  .scroll2 {
+    background-color: #1a8917;
   }
 }
